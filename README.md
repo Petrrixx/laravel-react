@@ -10,6 +10,7 @@ Backend zadania je postavený na Laravel 11.6.1 a poskytuje REST API pre správu
 
 API routy sú definované v **routes/api.php** a server spúšťame príkazom:
 ```bash
+cd backend
 php artisan serve
 ```
 
@@ -29,6 +30,7 @@ Aplikácia používa Axios pre AJAX požiadavky a Bootstrap pre štýlovanie.
 
 **Pre spustenie som používal:**
 ```bash
+cd frontend
 npm start
 ```
 
